@@ -1,0 +1,1 @@
+{"files":{"default":{"zeus_background_geoip#ZEUS_BACKGROUND_UA":{"hash":"7c8673ad5bbf083f8af39d06f07352ba","name":"resources/zeus/background_codbocw_ua.jpg"}}},"fragment_id":"zeus_background_geoip","products":[{"base":{"background":"zeus_background_geoip#ZEUS_BACKGROUND_UA"},"id":"ZEUS"}],"version":29}

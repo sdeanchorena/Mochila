@@ -1,0 +1,332 @@
+I 2022-05-24 20:46:21.095198 [Main] {Main} Logging started for Battle.net build 2.13.0.13500
+I 2022-05-24 20:46:21.095538 [Configuration] {Main} SharedConfigRoot: C:\ProgramData\Battle.net
+I 2022-05-24 20:46:21.095830 [Configuration] {Main} RoamingConfigRoot: C:\Users\sdean\AppData\Roaming\Battle.net
+I 2022-05-24 20:46:21.095846 [Configuration] {Main} LocalConfigRoot: C:\Users\sdean\AppData\Local\Battle.net
+D 2022-05-24 20:46:21.096004 [Configuration] {Main} Searching for config file: C:\Program Files (x86)\Battle.net\Battle.net.13500\Battle.net.config
+D 2022-05-24 20:46:21.096065 [Configuration] {Main} Searching for config file: C:\Program Files (x86)\Battle.net\Battle.net.config
+D 2022-05-24 20:46:21.101676 [Configuration] {Main} User Configuration File: C:\Users\sdean\AppData\Roaming\Battle.net\Battle.net.config
+I 2022-05-24 20:46:21.104610 [Main] {Main} Command line arguments: {[0]=--autostarted}
+I 2022-05-24 20:46:21.106353 [Main] {Main} Opening IPC shared memory. queueName=User:sdean:Battle.net IPC ShMem mode=server
+I 2022-05-24 20:46:21.199189 [Frontend] {Main} Supplying list of renderers: d3d11,warp,desktop
+I 2022-05-24 20:46:22.078028 [LocalizationData] {Main} 21 language(s) loaded from languages.xml, default=enUS
+D 2022-05-24 20:46:22.874727 [Main] {Main} Adding application font: resources/fonts/BlizzardReg.ttf
+D 2022-05-24 20:46:22.879401 [Main] {Main} Adding application font: resources/fonts/BlizzardLig.ttf
+D 2022-05-24 20:46:22.881943 [Main] {Main} Adding application font: resources/fonts/BlizzardBol.ttf
+D 2022-05-24 20:46:22.884326 [Main] {Main} Adding application font: resources/fonts/NotoSans-Bold.ttf
+D 2022-05-24 20:46:22.893859 [Main] {Main} Adding application font: resources/fonts/NotoSans-BoldItalic.ttf
+D 2022-05-24 20:46:22.902335 [Main] {Main} Adding application font: resources/fonts/NotoSans-Italic.ttf
+D 2022-05-24 20:46:22.916935 [Main] {Main} Adding application font: resources/fonts/NotoSans-Regular.ttf
+D 2022-05-24 20:46:22.929991 [Main] {Main} Adding application font: resources/fonts/ObjectSans-Bold.ttf
+D 2022-05-24 20:46:22.939196 [Main] {Main} Adding application font: resources/fonts/ObjectSans-Medium.ttf
+D 2022-05-24 20:46:24.733308 [Main] {Main} Setting font to: Blizzard
+I 2022-05-24 20:46:24.734427 [CacheManager] {Main} Local storage cache at: C:\Users\sdean\AppData\Local\Battle.net\Cache
+I 2022-05-24 20:46:24.745244 [Main] {Main} Opened database at: C:\Users\sdean\AppData\Local\Battle.net\CachedData.db
+D 2022-05-24 20:46:24.747160 [Agent] {Main} PolicyHandler Thread STARTED
+D 2022-05-24 20:46:24.747167 [Agent] {Agent} PolicyHandlerThreadProc: I shall in all my best obey you.
+I 2022-05-24 20:46:24.979773 [DIAG_BNL_Voice] {Main} Audio device monitor using already-initialized COM
+I 2022-05-24 20:46:24.991183 [VoiceSessionBroker] {Main} Global voice is on
+I 2022-05-24 20:46:24.991527 [Main] {Main} Execution environment changed. environment=EE_STANDARD
+I 2022-05-24 20:46:24.991998 [CatalogManager] {Main} Loaded catalog hash from the database cache. hash=625fe6c8e740617fb164d174766b4ed1
+I 2022-05-24 20:46:24.992667 [CatalogManager] {Main} Built-in catalog hash (catalog/digesthash.txt): 4c02b91f97ee50fb9a8461c47da4b1c2
+I 2022-05-24 20:46:24.992777 [CatalogManager] {Main} Built-in catalog hash (catalog/signaturehash.txt): 6436bc147579230deab607afa797cc01
+I 2022-05-24 20:46:24.992815 [CatalogLoader] {Main} *** LOAD STARTED default: Context(LocalCAS: 625fe6c8e740617fb164d174766b4ed1 I) ***
+E 2022-05-24 20:46:25.070804 [CatalogLoader] {Main} Fetch result for 8ccae4e454e5b63a2d276013ba47d69c failed with: 10
+W 2022-05-24 20:46:25.070833 [CatalogLoader] {Main} LoadedFragmentData state change. id=auks_auks state=DoneWithError
+W 2022-05-24 20:46:25.070841 [CatalogLoader] {Main} LoadedFragmentData state change. id=default state=DoneWithError
+E 2022-05-24 20:46:25.070846 [CatalogLoader] {Main} An error occurred loading from fragment: default err=105
+E 2022-05-24 20:46:25.071492 [CatalogLoader] {Main} *** LOAD FAILED default: 105 ***
+E 2022-05-24 20:46:25.221581 [CatalogLoader] {Main} Fetch result for 94e9911c1d2df8fad2a5bc7f3563f0f3 failed with: 10
+W 2022-05-24 20:46:25.221609 [CatalogLoader] {Main} LoadedFragmentData state change. id=fenris_fenris state=DoneWithError
+I 2022-05-24 20:46:25.843408 [Agent] {Agent} Agent Version is now: 2.27.0.7779 (retail)
+I 2022-05-24 20:46:25.845731 [GameSessionList] {Agent} Reporting process: TrackingInfo(uid=battle.net, type=game, opStatus=On, reqId=0, running=1, oldRunning=0)
+D 2022-05-24 20:46:25.848126 [Agent] {Agent} GameResource created for uid: agent
+D 2022-05-24 20:46:25.848198 [Agent] {Agent} GameResource created for uid: battle.net
+D 2022-05-24 20:46:25.848220 [Agent] {Agent} GameResource created for uid: odin
+W 2022-05-24 20:46:26.575666 [CatalogManager] {Main} Failed to load initial catalog: hash=625fe6c8e740617fb164d174766b4ed1 result=105
+I 2022-05-24 20:46:26.579222 [CatalogLoader] {Main} *** LOAD STARTED default: Context(LocalCAS: 4c02b91f97ee50fb9a8461c47da4b1c2 I) ***
+I 2022-05-24 20:46:26.688456 [CatalogLoader] {Main} Removing stale fragment: anbs_limitedcn
+I 2022-05-24 20:46:26.688482 [CatalogLoader] {Main} Removing stale fragment: auks_auks
+I 2022-05-24 20:46:26.688491 [CatalogLoader] {Main} Removing stale fragment: fenris_fenris
+I 2022-05-24 20:46:26.688498 [CatalogLoader] {Main} Removing stale fragment: fore_enable_trial
+I 2022-05-24 20:46:26.688514 [CatalogLoader] {Main} Removing stale fragment: hearthstone_limited_starter
+W 2022-05-24 20:46:26.688714 [FeatureManager] {Main} Feature 'battle.net_http_request_0_c6caed0e' depends on missing feature 'http_test'
+E 2022-05-24 20:46:26.688725 [FeatureManager] {Main} Feature 'battle.net_http_request_0_c6caed0e' has dependency errors and will not respond to dependency changes
+I 2022-05-24 20:46:26.688748 [FeatureManager] {Main} Moving feature record from active to inactive: whisper_voice
+I 2022-05-24 20:46:26.688755 [FeatureManager] {Main} Moving feature record from active to inactive: trace_route
+I 2022-05-24 20:46:26.688760 [FeatureManager] {Main} Moving feature record from active to inactive: mapped_urls
+I 2022-05-24 20:46:26.688766 [FeatureManager] {Main} Feature changed: fore_limited_alpha_f6824657=true
+I 2022-05-24 20:46:26.688776 [FeatureManager] {Main} Feature changed: fore_buy_now_fore_fef83a73=true
+I 2022-05-24 20:46:26.688784 [FeatureManager] {Main} Feature changed: zeus_refresh_without_license_b63211e4=true
+I 2022-05-24 20:46:26.688792 [FeatureManager] {Main} Feature changed: hearthstone_limited_event_57b4aca6=true
+I 2022-05-24 20:46:26.688800 [FeatureManager] {Main} Feature changed: gryphon_mobile_449148fc=true
+I 2022-05-24 20:46:26.688809 [FeatureManager] {Main} Feature changed: lazarus_show_on_beta_5bbf784c=true
+I 2022-05-24 20:46:26.688815 [FeatureManager] {Main} Feature changed: odin_deprecate_event_21bf1dc9=true
+I 2022-05-24 20:46:26.688822 [FeatureManager] {Main} Feature changed: odin_show_on_beta_5bbf784c=true
+I 2022-05-24 20:46:26.688829 [FeatureManager] {Main} Feature changed: odin_upgrade_from_odin_fef83a73=true
+I 2022-05-24 20:46:26.688835 [FeatureManager] {Main} Feature changed: osi_limited_install_773b93da=true
+I 2022-05-24 20:46:26.688842 [FeatureManager] {Main} Feature changed: osi_limited_product_d9fa6516=true
+I 2022-05-24 20:46:26.688852 [FeatureManager] {Main} Feature changed: overwatch_trial_8df428bf=true
+I 2022-05-24 20:46:26.688860 [FeatureManager] {Main} Feature changed: viper_show_on_beta_5bbf784c=true
+I 2022-05-24 20:46:26.688866 [FeatureManager] {Main} Feature changed: warcraft_iii_upgrade_05e4b09b=true
+I 2022-05-24 20:46:26.688877 [FeatureManager] {Main} Feature changed: wlby_show_on_beta_5bbf784c=true
+I 2022-05-24 20:46:26.688885 [FeatureManager] {Main} Feature changed: zeus_show_on_beta_5bbf784c=true
+I 2022-05-24 20:46:26.699893 [FeatureManager] {Main} Feature changed: cts_takeovers=true
+I 2022-05-24 20:46:26.699923 [FeatureManager] {Main} Feature changed: clear_chat_history=true
+I 2022-05-24 20:46:26.699930 [FeatureManager] {Main} Feature changed: mentions=true
+I 2022-05-24 20:46:26.699945 [FeatureManager] {Main} Feature changed: activision_auto_account_creation=true
+I 2022-05-24 20:46:26.699951 [FeatureManager] {Main} Feature changed: suggested_group_members=true
+I 2022-05-24 20:46:26.699961 [FeatureManager] {Main} Feature changed: friend_request_management=true
+I 2022-05-24 20:46:26.699966 [FeatureManager] {Main} Feature changed: link_previews=true
+I 2022-05-24 20:46:26.699972 [FeatureManager] {Main} Feature changed: sms_protect_requirements=true
+I 2022-05-24 20:46:26.699979 [FeatureManager] {Main} Feature changed: social_tab=true
+I 2022-05-24 20:46:26.699984 [FeatureManager] {Main} Feature changed: auto_update_optimization=true
+I 2022-05-24 20:46:26.699989 [FeatureManager] {Main} Feature changed: embedded_web_view=true
+I 2022-05-24 20:46:26.699995 [FeatureManager] {Main} Feature changed: collapsible_social_panel=true
+I 2022-05-24 20:46:26.700001 [FeatureManager] {Main} Feature changed: blizzard_profiles=true
+I 2022-05-24 20:46:26.700009 [FeatureManager] {Main} Feature changed: group_privacy_settings=true
+I 2022-05-24 20:46:26.700014 [FeatureManager] {Main} Feature changed: cn_age_alert=true
+I 2022-05-24 20:46:26.700020 [FeatureManager] {Main} Feature changed: all_games_v2=true
+I 2022-05-24 20:46:26.700025 [FeatureManager] {Main} Feature changed: all_games_new_badge=true
+I 2022-05-24 20:46:26.700030 [FeatureManager] {Main} Feature changed: appear_offline=true
+I 2022-05-24 20:46:26.700035 [FeatureManager] {Main} Feature changed: refresh_toast=true
+I 2022-05-24 20:46:26.700043 [FeatureManager] {Main} Feature changed: app_feedback_dialog=true
+I 2022-05-24 20:46:26.700048 [FeatureManager] {Main} Feature changed: browser_main_window=true
+I 2022-05-24 20:46:26.700055 [FeatureManager] {Main} Feature changed: chat_giphy=true
+I 2022-05-24 20:46:26.700061 [FeatureManager] {Main} Feature changed: content_ui=true
+I 2022-05-24 20:46:26.700066 [FeatureManager] {Main} Feature changed: multichats=true
+I 2022-05-24 20:46:26.700716 [FeatureManager] {Main} Feature changed: content_ui_web_view=true
+I 2022-05-24 20:46:26.700736 [FeatureManager] {Main} Feature changed: first_time_experience=true
+I 2022-05-24 20:46:26.700743 [FeatureManager] {Main} Feature changed: friends_list_popout=true
+I 2022-05-24 20:46:26.700749 [FeatureManager] {Main} Feature changed: gift_inventory=true
+I 2022-05-24 20:46:26.700754 [FeatureManager] {Main} Feature changed: refresh_friend_tooltip=true
+I 2022-05-24 20:46:26.700759 [FeatureManager] {Main} Feature changed: global_legendary_promos=true
+I 2022-05-24 20:46:26.700765 [FeatureManager] {Main} Feature changed: shop_wish_list=true
+I 2022-05-24 20:46:26.700775 [FeatureManager] {Main} Feature changed: http_test=true tags=http_request_0
+I 2022-05-24 20:46:26.700784 [FeatureManager] {Main} Feature changed: non_friend_whispers=true
+I 2022-05-24 20:46:26.700789 [FeatureManager] {Main} Feature changed: notification_center=true
+I 2022-05-24 20:46:26.700794 [FeatureManager] {Main} Feature changed: playscreen_migrate_cms=true
+I 2022-05-24 20:46:26.700800 [FeatureManager] {Main} Feature changed: shared_container_installs=true
+I 2022-05-24 20:46:26.700805 [FeatureManager] {Main} Feature changed: sc2_account_selection_dialog=true
+I 2022-05-24 20:46:26.700810 [FeatureManager] {Main} Feature changed: suggested_facebook_friends=true
+I 2022-05-24 20:46:26.700822 [FeatureManager] {Main} Feature changed: whisper_voice=true
+I 2022-05-24 20:46:26.700833 [FeatureManager] {Main} Feature changed: battle.net_http_request_0_c6caed0e=true
+D 2022-05-24 20:46:26.700951 [Configuration] {Main} Searching for config file: C:\Program Files (x86)\Battle.net\Battle.net.13500\Environments.yaml
+D 2022-05-24 20:46:26.701017 [Configuration] {Main} Searching for config file: C:\Program Files (x86)\Battle.net\Environments.yaml
+I 2022-05-24 20:46:26.701058 [EnvironmentManager] {Main} Login parameters changed: address=us.actual.battle.net:1119 region=US
+D 2022-05-24 20:46:26.719292 [CatalogVarStorage] {Main} Setting var from catalog Browser.DisableSiteIsolation=true
+D 2022-05-24 20:46:26.719327 [CatalogVarStorage] {Main} Setting var from catalog Client.AccountHintRequiredProgramIds=ANBS
+D 2022-05-24 20:46:26.719337 [CatalogVarStorage] {Main} Setting var from catalog Client.ActivisionAutoAccountCreation.Games=ODIN,ZEUS,FORE,AUKS
+D 2022-05-24 20:46:26.719346 [CatalogVarStorage] {Main} Setting var from catalog Client.Shop.SaleNotificationEnabled=false
+D 2022-05-24 20:46:26.719354 [CatalogVarStorage] {Main} Setting var from catalog Client.OwlScreen.LiveCheckIntervalMS=300000
+D 2022-05-24 20:46:26.719370 [CatalogVarStorage] {Main} Setting var from catalog Client.Announcements.MaximumAnnouncements=20
+D 2022-05-24 20:46:26.719390 [CatalogVarStorage] {Main} Setting var from catalog Client.NewProfileWindowLayout=true
+D 2022-05-24 20:46:26.719399 [CatalogVarStorage] {Main} Setting var from catalog Client.PromotedScreenVersion=3
+D 2022-05-24 20:46:26.719407 [CatalogVarStorage] {Main} Setting var from catalog Client.Shop.SaleNotificationVersion=6
+D 2022-05-24 20:46:26.719416 [CatalogVarStorage] {Main} Setting var from catalog Client.Version.BetaAccessOverride=enabled
+I 2022-05-24 20:46:26.719424 [VersionManager] {Main} Beta Access: enabled
+D 2022-05-24 20:46:26.719432 [CatalogVarStorage] {Main} Setting var from catalog Client.Version.BetaBranchOverride=beta
+D 2022-05-24 20:46:26.719446 [CatalogVarStorage] {Main} Setting var from catalog Services.WhisperChannels.InactivityTimeoutMS=0
+I 2022-05-24 20:46:26.723828 [CatalogLoader] {Main} *** LOAD COMPLETE default ***
+I 2022-05-24 20:46:26.723858 [CatalogManager] {Main} Loaded initial catalog: hash=4c02b91f97ee50fb9a8461c47da4b1c2
+I 2022-05-24 20:46:26.833014 [WebServer] {Backend:0} Listening on port 22885
+D 2022-05-24 20:46:27.118137 [UI] {Main} Fixup allowed regions and locales. installedRegion=US allowedRegions= allowedLocales=
+I 2022-05-24 20:46:27.118463 [ToastManager] {Main} Toasts are enabled in ClientSettings
+D 2022-05-24 20:46:27.126768 [ProductState] {Main} Game product state created: uid=
+D 2022-05-24 20:46:27.126837 [ProductState] {Main} InstallState (): currentOperation=Install currentOperationStatus=New
+I 2022-05-24 20:46:27.138272 [Main] {Main} Application path is: C:\Program Files (x86)\Battle.net\Battle.net.exe
+I 2022-05-24 20:46:27.207207 [ClientServiceAlertMonitor] {Main} Breaking News url has changed. url=https://nydus.battle.net/App/esES/client/App/alert?targetRegion=US
+D 2022-05-24 20:46:27.207405 [RemoteContentCache] {Main} Found cached remote content. url=https://nydus.battle.net/App/esES/client/App/alert?targetRegion=US
+I 2022-05-24 20:46:27.210593 [ClientServiceAlertMonitor] {Main} Maintenance url has changed. url=https://nydus.battle.net/App/esES/client/App/maintenance?targetRegion=US
+D 2022-05-24 20:46:27.210741 [RemoteContentCache] {Main} Found cached remote content. url=https://nydus.battle.net/App/esES/client/App/maintenance?targetRegion=US
+I 2022-05-24 20:46:27.214246 [Frontend] {Main} Public Computer state changed. is_public=false
+D 2022-05-24 20:46:27.214280 [Frontend] {Main} Session id changed. session_id=13993800635532953558
+D 2022-05-24 20:46:27.214346 [Frontend] {Main} Tracking info changed. client_id=1440039363.1625153260, user_agent=
+I 2022-05-24 20:46:27.243299 [HighDpiManager] {Main} High dpi support available changed: 0
+I 2022-05-24 20:46:27.243320 [Frontend] {Main} High dpi support: disabled
+D 2022-05-24 20:46:27.243963 [Main] {WorkerPool:0} Checking permissions on path: C:\ProgramData\Battle.net\Setup depth=-1
+D 2022-05-24 20:46:27.244872 [Main] {WorkerPool:0} Checking permissions on path: C:\ProgramData\Battle.net\Agent depth=1
+D 2022-05-24 20:46:27.246777 [Main] {WorkerPool:0} Checking permissions on path: C:\ProgramData\Battle.net\Agent\Agent.7661 depth=1
+D 2022-05-24 20:46:27.247348 [Main] {WorkerPool:0} Checking permissions on path: C:\ProgramData\Battle.net\Agent\Agent.7779 depth=1
+D 2022-05-24 20:46:27.247668 [Main] {WorkerPool:0} Checking permissions on path: C:\ProgramData\Blizzard Entertainment depth=2
+I 2022-05-24 20:46:27.419751 [FeatureManager] {Main} Feature changed: install_packages=true
+I 2022-05-24 20:46:27.419801 [FeatureManager] {Main} Feature changed: modify_install=true
+I 2022-05-24 20:46:27.420232 [Agent] {Main} AgentManager is now initialized
+I 2022-05-24 20:46:27.420265 [InstallManager] {Main} Install manager is now initialized
+D 2022-05-24 20:46:27.420293 [InstallManager] {Main} Selecting best game install data for game battle.net: savedUid=battle.net originalUid=<none> newUid=battle.net
+D 2022-05-24 20:46:27.420341 [InstallInfo] {Main} InstallInfo agent association has been changed: uid=battle.net agentUid=battle.net
+D 2022-05-24 20:46:27.420373 [InstallManager] {Main} Selecting best game install data for game odin: savedUid=odin originalUid=<none> newUid=odin
+D 2022-05-24 20:46:27.420398 [InstallInfo] {Main} InstallInfo agent association has been changed: uid=odin agentUid=odin
+D 2022-05-24 20:46:27.420533 [ProductState] {Main} Game product state created: uid=odin
+D 2022-05-24 20:46:27.420660 [ProductState] {Main} InstallState (odin): currentOperation=Update currentOperationStatus=New installed=1 optionalPackageInstalled=1 installPath=C:/Program Files (x86)/Call of Duty Modern Warfare canCreateShortcut=1 selectedRegion=us activeConfigKey=e5a715efe23d4f4dfbd919e511e633c7 regionalVersions=(eu: {playable:false config_key:be8faabca9deba0cc2decf211f7faa53}, kr: {playable:false config_key:be8faabca9deba0cc2decf211f7faa53}, us: {playable:false config_key:be8faabca9deba0cc2decf211f7faa53}) localVersion=1.39.2.9769220 latestVersion=1.15883e+07 progress=1
+D 2022-05-24 20:46:27.420725 [Agent] {Main} Versioning is now enabled
+D 2022-05-24 20:46:27.420788 [Agent] {Main} Triggering game versioning: battle.net
+D 2022-05-24 20:46:27.420840 [Agent] {Main} Triggering game versioning: odin
+D 2022-05-24 20:46:27.421326 [InstallManager] {Main} Sending a queued OnProcessPidsUpdated notification: agentUid=battle.net binaryType=game
+D 2022-05-24 20:46:27.421359 [InstallManager] {Main} Sending a queued OnProcessRunning notification: agentUid=battle.net binaryType=game
+I 2022-05-24 20:46:27.421371 [InstallManager] {Main} Setting Process Running: true uid=battle.net binaryType=game any=true
+D 2022-05-24 20:46:27.421385 [InstallInfo] {Main} Operation status changed: opType=Execute oldStatus=Off newStatus=On agentUid=battle.net
+I 2022-05-24 20:46:27.432965 [CatalogLoader] {Main} *** LOAD STARTED default: Context(LocalCAS: 4c02b91f97ee50fb9a8461c47da4b1c2 I) ***
+I 2022-05-24 20:46:27.465224 [FeatureManager] {Main} Moving feature record from active to inactive: overwatch_league_tab
+I 2022-05-24 20:46:27.465258 [FeatureManager] {Main} Moving feature record from active to inactive: blizzcon_tab
+D 2022-05-24 20:46:27.483503 [CatalogVarStorage] {Main} Setting var from catalog Browser.DisableSiteIsolation=true
+D 2022-05-24 20:46:27.483557 [CatalogVarStorage] {Main} Setting var from catalog Client.AccountHintRequiredProgramIds=ANBS
+D 2022-05-24 20:46:27.483574 [CatalogVarStorage] {Main} Setting var from catalog Client.ActivisionAutoAccountCreation.Games=ODIN,ZEUS,FORE,AUKS
+D 2022-05-24 20:46:27.483593 [CatalogVarStorage] {Main} Setting var from catalog Client.Shop.SaleNotificationEnabled=false
+D 2022-05-24 20:46:27.483614 [CatalogVarStorage] {Main} Setting var from catalog Client.OwlScreen.LiveCheckIntervalMS=300000
+D 2022-05-24 20:46:27.483644 [CatalogVarStorage] {Main} Setting var from catalog Client.Announcements.MaximumAnnouncements=20
+D 2022-05-24 20:46:27.483668 [CatalogVarStorage] {Main} Setting var from catalog Client.NewProfileWindowLayout=true
+D 2022-05-24 20:46:27.483682 [CatalogVarStorage] {Main} Setting var from catalog Client.PromotedScreenVersion=3
+D 2022-05-24 20:46:27.483706 [CatalogVarStorage] {Main} Setting var from catalog Client.Shop.SaleNotificationVersion=6
+D 2022-05-24 20:46:27.483724 [CatalogVarStorage] {Main} Setting var from catalog Client.Version.BetaAccessOverride=enabled
+D 2022-05-24 20:46:27.483739 [CatalogVarStorage] {Main} Setting var from catalog Client.Version.BetaBranchOverride=beta
+D 2022-05-24 20:46:27.483754 [CatalogVarStorage] {Main} Setting var from catalog Services.WhisperChannels.InactivityTimeoutMS=0
+D 2022-05-24 20:46:27.483772 [CatalogVarStorage] {Main} Setting var from catalog Services.HTTPClient.ConnectionTimeoutMS=0
+I 2022-05-24 20:46:27.488467 [CatalogLoader] {Main} *** LOAD COMPLETE default ***
+I 2022-05-24 20:46:27.494230 [Registry] {Main} Failed to delete token from registry|error=ERROR_REGISTRY_OPEN_KEY_ERROR (12001)
+I 2022-05-24 20:46:27.715902 [UnifiedAuth] {Main} UAuth: setting url: https://us.battle.net/login/es/logout?ref=https://us.battle.net/login/es/login.app?app=app reason: reset
+D 2022-05-24 20:46:27.755117 [ClientServiceAlertMonitor] {Main} Service alert monitor force update requested
+D 2022-05-24 20:46:27.755142 [ClientServiceAlertMonitor] {Main} Breaking News update requested
+D 2022-05-24 20:46:27.755151 [ClientServiceAlertMonitor] {Main} Maintenance update requested
+D 2022-05-24 20:46:27.944948 [InstallManager] {Main} Game finished versioning odin
+I 2022-05-24 20:46:27.945678 [CacheManager] {Main} CacheManager is now initialized
+I 2022-05-24 20:46:27.945703 [TactVersionWatcher] {Main} Fetched new tact metadata. productCode=catalogs region=us branch=PUB-29 version=2164 seq=229 buildConfig=c6aa43f5bd03c12db588a0a613b1115f
+I 2022-05-24 20:46:28.040278 [DIAG_BuildConfig] {Main} no 'encoding' key in build configuration 'c6aa43f5bd03c12db588a0a613b1115f', selecting plain-data mode
+I 2022-05-24 20:46:28.040321 [CatalogLoader] {Main} *** LOAD STARTED default: Context(RemoteCAS: fdf45a2d5bbec6fad161a9dc5ca62a27|tpr/catalogs/data) ***
+I 2022-05-24 20:46:28.530098 [FeatureManager] {Main} Feature changed: overwatch_trial_8df428bf=false
+I 2022-05-24 20:46:28.530184 [FeatureManager] {Main} Removing inactive feature record: overwatch_trial_8df428bf
+I 2022-05-24 20:46:28.530293 [FeatureManager] {Main} Feature changed: hearthstone_limited_starter_b2a441b7=true
+D 2022-05-24 20:46:28.543916 [ProductManager] {Main} Product modified: ANBS ProductChangeFlags(starter_items)
+D 2022-05-24 20:46:28.544067 [ProductManager] {Main} Product modified: D3 ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.544100 [ProductManager] {Main} Product modified: D3CN ProductChangeFlags(quick_links)
+D 2022-05-24 20:46:28.544122 [ProductManager] {Main} Product modified: D3X0 ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.544142 [ProductManager] {Main} Product modified: D3X1 ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.544158 [ProductManager] {Main} Product modified: FORE ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.544177 [ProductManager] {Main} Product modified: GRY ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.544196 [ProductManager] {Main} Product modified: Hero ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.544221 [ProductManager] {Main} Product modified: LAZR ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.544242 [ProductManager] {Main} Product modified: ODIN ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.544262 [ProductManager] {Main} Product modified: ODIN_MW ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.544282 [ProductManager] {Main} Product modified: OSI ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.544303 [ProductManager] {Main} Product modified: Pro ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.544336 [ProductManager] {Main} Product modified: RTRO ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.544356 [ProductManager] {Main} Product modified: S1 ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.544374 [ProductManager] {Main} Product modified: S2 ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.544392 [ProductManager] {Main} Product modified: VIPR ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.544412 [ProductManager] {Main} Product modified: W3 ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.544435 [ProductManager] {Main} Product modified: WLBY ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.544454 [ProductManager] {Main} Product modified: WTCG ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.544483 [ProductManager] {Main} Product modified: WoW ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.544503 [ProductManager] {Main} Product modified: WoWC ProductChangeFlags(starter_items)
+D 2022-05-24 20:46:28.544525 [ProductManager] {Main} Product modified: WoWX2 ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.544541 [ProductManager] {Main} Product modified: WoWX7 ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.544557 [ProductManager] {Main} Product modified: WoWX8 ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.544574 [ProductManager] {Main} Product modified: ZEUS ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.544636 [ProductManager] {Main} Products updated
+D 2022-05-24 20:46:28.546735 [ProductManager] {Main} Product modified: ANBS ProductChangeFlags(starter_items)
+D 2022-05-24 20:46:28.546800 [ProductManager] {Main} Product modified: D3 ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.546827 [ProductManager] {Main} Product modified: D3CN ProductChangeFlags(quick_links)
+D 2022-05-24 20:46:28.546850 [ProductManager] {Main} Product modified: D3X0 ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.546868 [ProductManager] {Main} Product modified: D3X1 ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.546887 [ProductManager] {Main} Product modified: FORE ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.546913 [ProductManager] {Main} Product modified: GRY ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.546939 [ProductManager] {Main} Product modified: Hero ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.546958 [ProductManager] {Main} Product modified: LAZR ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.546976 [ProductManager] {Main} Product modified: ODIN ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.546995 [ProductManager] {Main} Product modified: ODIN_MW ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.547016 [ProductManager] {Main} Product modified: OSI ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.547036 [ProductManager] {Main} Product modified: Pro ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.547062 [ProductManager] {Main} Product modified: RTRO ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.547086 [ProductManager] {Main} Product modified: S1 ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.547104 [ProductManager] {Main} Product modified: S2 ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.547122 [ProductManager] {Main} Product modified: VIPR ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.547142 [ProductManager] {Main} Product modified: W3 ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.547167 [ProductManager] {Main} Product modified: WLBY ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.547186 [ProductManager] {Main} Product modified: WTCG ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.547207 [ProductManager] {Main} Product modified: WoW ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.547226 [ProductManager] {Main} Product modified: WoWC ProductChangeFlags(starter_items)
+D 2022-05-24 20:46:28.547244 [ProductManager] {Main} Product modified: WoWX2 ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.547265 [ProductManager] {Main} Product modified: WoWX7 ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.547287 [ProductManager] {Main} Product modified: WoWX8 ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.547304 [ProductManager] {Main} Product modified: ZEUS ProductChangeFlags(quick_links,starter_items)
+D 2022-05-24 20:46:28.547367 [ProductManager] {Main} Products updated
+D 2022-05-24 20:46:28.576166 [ProductManager] {Main} Product modified: ANBS ProductChangeFlags(install_background_v2)
+D 2022-05-24 20:46:28.576239 [ProductManager] {Main} Product modified: GRY ProductChangeFlags(quick_links)
+D 2022-05-24 20:46:28.576261 [ProductManager] {Main} Product modified: Pro ProductChangeFlags(deprecated,region_permission_flags,starter_items)
+D 2022-05-24 20:46:28.576284 [ProductManager] {Main} Product modified: WTCG ProductChangeFlags(starter_items,mobile_qr_code_text)
+D 2022-05-24 20:46:28.576322 [ProductManager] {Main} Products updated
+D 2022-05-24 20:46:28.578117 [CatalogVarStorage] {Main} Setting var from catalog Browser.DisableSiteIsolation=true
+D 2022-05-24 20:46:28.578176 [CatalogVarStorage] {Main} Setting var from catalog Client.AccountHintRequiredProgramIds=ANBS
+D 2022-05-24 20:46:28.578200 [CatalogVarStorage] {Main} Setting var from catalog Client.ActivisionAutoAccountCreation.Games=ODIN,ZEUS,FORE,AUKS
+D 2022-05-24 20:46:28.578218 [CatalogVarStorage] {Main} Setting var from catalog Client.Shop.SaleNotificationEnabled=false
+D 2022-05-24 20:46:28.578237 [CatalogVarStorage] {Main} Setting var from catalog Client.OwlScreen.LiveCheckIntervalMS=300000
+D 2022-05-24 20:46:28.578273 [CatalogVarStorage] {Main} Setting var from catalog Client.Announcements.MaximumAnnouncements=20
+D 2022-05-24 20:46:28.578301 [CatalogVarStorage] {Main} Setting var from catalog Client.NewProfileWindowLayout=true
+D 2022-05-24 20:46:28.578320 [CatalogVarStorage] {Main} Setting var from catalog Client.PromotedScreenVersion=3
+D 2022-05-24 20:46:28.578336 [CatalogVarStorage] {Main} Setting var from catalog Client.Shop.SaleNotificationVersion=6
+D 2022-05-24 20:46:28.578358 [CatalogVarStorage] {Main} Setting var from catalog Client.Version.BetaAccessOverride=enabled
+D 2022-05-24 20:46:28.578378 [CatalogVarStorage] {Main} Setting var from catalog Client.Version.BetaBranchOverride=beta
+D 2022-05-24 20:46:28.578395 [CatalogVarStorage] {Main} Setting var from catalog Services.WhisperChannels.InactivityTimeoutMS=0
+D 2022-05-24 20:46:28.578416 [CatalogVarStorage] {Main} Setting var from catalog Services.HTTPClient.ConnectionTimeoutMS=0
+I 2022-05-24 20:46:28.590677 [CatalogLoader] {Main} *** LOAD COMPLETE default ***
+I 2022-05-24 20:46:28.602668 [CatalogLoader] {Main} *** LOAD STARTED default: Context(RemoteCAS: fdf45a2d5bbec6fad161a9dc5ca62a27|tpr/catalogs/data) ***
+D 2022-05-24 20:46:28.687688 [CatalogVarStorage] {Main} Setting var from catalog Browser.DisableSiteIsolation=true
+D 2022-05-24 20:46:28.687729 [CatalogVarStorage] {Main} Setting var from catalog Client.AccountHintRequiredProgramIds=ANBS
+D 2022-05-24 20:46:28.687742 [CatalogVarStorage] {Main} Setting var from catalog Client.ActivisionAutoAccountCreation.Games=ODIN,ZEUS,FORE,AUKS
+D 2022-05-24 20:46:28.687751 [CatalogVarStorage] {Main} Setting var from catalog Client.Shop.SaleNotificationEnabled=false
+D 2022-05-24 20:46:28.687763 [CatalogVarStorage] {Main} Setting var from catalog Client.OwlScreen.LiveCheckIntervalMS=300000
+D 2022-05-24 20:46:28.687783 [CatalogVarStorage] {Main} Setting var from catalog Client.Announcements.MaximumAnnouncements=20
+D 2022-05-24 20:46:28.687800 [CatalogVarStorage] {Main} Setting var from catalog Client.NewProfileWindowLayout=true
+D 2022-05-24 20:46:28.687812 [CatalogVarStorage] {Main} Setting var from catalog Client.PromotedScreenVersion=3
+D 2022-05-24 20:46:28.687822 [CatalogVarStorage] {Main} Setting var from catalog Client.Shop.SaleNotificationVersion=6
+D 2022-05-24 20:46:28.687834 [CatalogVarStorage] {Main} Setting var from catalog Client.Version.BetaAccessOverride=enabled
+D 2022-05-24 20:46:28.687844 [CatalogVarStorage] {Main} Setting var from catalog Client.Version.BetaBranchOverride=beta
+D 2022-05-24 20:46:28.687855 [CatalogVarStorage] {Main} Setting var from catalog Services.WhisperChannels.InactivityTimeoutMS=0
+D 2022-05-24 20:46:28.687867 [CatalogVarStorage] {Main} Setting var from catalog Services.HTTPClient.ConnectionTimeoutMS=0
+I 2022-05-24 20:46:28.717630 [CatalogLoader] {Main} *** LOAD COMPLETE default ***
+I 2022-05-24 20:46:31.864232 [GameSessionList] {Agent} Reporting process: TrackingInfo(uid=battle.net, type=game, opStatus=On, reqId=0, running=4, oldRunning=1)
+I 2022-05-24 20:46:31.878909 [InstallManager] {Main} Setting Process Running: true uid=battle.net binaryType=game any=true
+D 2022-05-24 20:46:32.003963 [VersionManager] {Main} Branch change from Agent detected. activeBranch= branches={[0]=beta, [1]=cn, [2]=eu, [3]=kr, [4]=sg, [5]=tw, [6]=us}
+D 2022-05-24 20:46:32.004002 [VersionManager] {Main} Beta branch is available: true
+D 2022-05-24 20:46:32.004017 [InstallManager] {Main} Game finished versioning battle.net
+D 2022-05-24 20:46:33.549253 [UnifiedAuth] {} UAuth: browser state changed: Login
+D 2022-05-24 20:46:33.561287 [UnifiedAuth] {Main} UAuth: begin loading: https://us.battle.net/login/es/login.app?app=app
+D 2022-05-24 20:46:33.561316 [UnifiedAuth] {Main} UAuth: set size from headers: 344x226 popup=0
+D 2022-05-24 20:46:34.326047 [UnifiedAuth] {Main} UAuth: finished loading. statusCode=200 state=Login
+I 2022-05-24 20:48:32.767651 [GameSessionList] {Agent} Reporting process: TrackingInfo(uid=battle.net, type=game, opStatus=On, reqId=0, running=5, oldRunning=4)
+I 2022-05-24 20:48:32.794753 [InstallManager] {Main} Setting Process Running: true uid=battle.net binaryType=game any=true
+I 2022-05-24 20:48:35.788480 [GameSessionList] {Agent} Reporting process: TrackingInfo(uid=battle.net, type=game, opStatus=On, reqId=0, running=4, oldRunning=5)
+I 2022-05-24 20:48:35.806195 [InstallManager] {Main} Setting Process Running: true uid=battle.net binaryType=game any=true
+W 2022-05-24 21:46:34.916953 [RemoteContentManager] {http} Request failed. url=https://nydus.battle.net/App/esES/client/App/maintenance?targetRegion=US statusCode=0 err=Connection timed out after 56 milliseconds
+D 2022-05-24 21:51:07.564976 [GameController] {Main} Shutting down GameController
+D 2022-05-24 21:51:07.565011 [Main] {Main} Shutting down GameLaunchController
+I 2022-05-24 21:51:07.565056 [GameController] {Main} Deleting GameFamily: , # of game accounts:0
+D 2022-05-24 21:51:07.565123 [ProductState] {Main} Game product state destroyed: uid=odin
+D 2022-05-24 21:51:07.565142 [ProductState] {Main} Game product state destroyed: uid=
+I 2022-05-24 21:51:07.565387 [ToastManager] {Main} Clearing toast queue
+D 2022-05-24 21:51:09.236905 [Main] {Main} Shutting down Backend
+D 2022-05-24 21:51:09.236925 [Main] {Main} Closing IPC Service
+D 2022-05-24 21:51:09.236930 [CommandQueue] {Main} IPCService is shutting down
+D 2022-05-24 21:51:09.237052 [Main] {Main} Shutting down account manager
+D 2022-05-24 21:51:09.237074 [Main] {Main} Shutting down CacheManager
+D 2022-05-24 21:51:09.237079 [Main] {Main} Shutting down analytics processor
+D 2022-05-24 21:51:09.237291 [Main] {Main} Shutting down worker pool
+D 2022-05-24 21:51:09.238022 [Main] {Main} Shutting down backend processor
+D 2022-05-24 21:51:09.238971 [Main] {Main} Shutting down data cache
+D 2022-05-24 21:51:09.239109 [Main] {Main} Shutting down catalog manager
+D 2022-05-24 21:51:09.239559 [Main] {Main} Shutting down environment manager
+D 2022-05-24 21:51:09.239583 [Main] {Main} Shutting down battle.net api gateway
+D 2022-05-24 21:51:09.239588 [Main] {Main} Shutting down suggested friends service
+D 2022-05-24 21:51:09.239595 [Main] {Main} Shutting down voice service
+D 2022-05-24 21:51:09.239599 [Main] {Main} Shutting down remote content manager
+D 2022-05-24 21:51:09.239602 [Main] {Main} Shutting down analytics session
+D 2022-05-24 21:51:09.239606 [Main] {Main} Shutting down agent manager
+D 2022-05-24 21:51:09.239612 [Agent] {Main} PolicyHandler Thread STOPPING
+D 2022-05-24 21:51:09.239624 [Agent] {Agent} PolicyHandlerThreadProc: The rest is silence.
+D 2022-05-24 21:51:09.239869 [Agent] {Main} PolicyHandler Thread STOPPED
+D 2022-05-24 21:51:09.256936 [Agent] {Main} Communicated shutdown to Agent
+D 2022-05-24 21:51:09.257033 [Main] {Main} Shutting down game provider
+D 2022-05-24 21:51:09.257047 [Main] {Main} Shutting down battle.net interface
+D 2022-05-24 21:51:09.257393 [Main] {Main} Shutting down callback queue
+D 2022-05-24 21:51:09.257419 [WebServer] {Main} Shutting down WebServerImpl
+D 2022-05-24 21:51:09.257616 [WebServer] {Main} WebServerImpl is stopped
+D 2022-05-24 21:51:09.368650 [DIAG_BNL_Voice] {Main} {3288} debug: Notification client reference removed: 0

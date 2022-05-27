@@ -1,0 +1,1 @@
+{"fragment_id":"hearthstone_limited_starter","products":[{"base":{"starter_items":[{"action":{"custom_action_id":"open_play_on_mobile_modal","type":"custom_action"},"id":"play_on_mobile_starter","label":"default#QUICK_LINK_MOBILE","rank":2,"style":"secondary","type":"button"}]},"id":"WTCG"}],"strings":{},"version":29}

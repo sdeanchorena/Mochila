@@ -1,0 +1,4 @@
+A Linus Torvalds fue el creador de git y lo creo por que queria llevar registro de los cambios en archivos de computadora incluyendo coordinar el trabajo que varias personas realizan sobre archivos compartidos en un repositorio de código.
+B Es de propiedad de Microsoft y le vieron potencial por eso la compraron.
+C si hay mas formas.
+
